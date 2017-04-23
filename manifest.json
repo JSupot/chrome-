@@ -1,0 +1,23 @@
+{
+    "manifest_version": 2,
+    "name": "weather",
+    "version": "1.0.0",
+    "description": "查看天气",
+    "icons": {
+        "16": "images/icon16.png",
+        "48": "images/icon48.png",
+        "128": "images/icon128.png"
+    },
+    "browser_action": {
+        "default_icon": {
+            "19": "images/icon19.png",
+            "38": "images/icon38.png"
+        },
+        "default_title": "天气预报",
+        "default_popup": "popup.html"
+    },
+    "options_page": "option.html",
+    "permissions": [
+        "https://free-api.heweather.com/v5/weather?city=*"
+    ]
+}

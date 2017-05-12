@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+}
+.red {
+  color: red;
+}
+
+.ry-datepicker-wrapper {
+  margin: 10px;
+  width: 240px;
+  font-size: 16px;
+  color: #666;
+  box-shadow: 2px 2px 8px 2px rgba(128, 128, 128, .3);
+}
+
+.ry-datepicker-wrapper .ry-datepicker-header {
+  box-sizing: border-box;
+  width: 100%;
+  height: 40px;
+  line-height: 40px;
+  padding: 0 20px;
+  font-weight: 700;
+  text-align: center;
+  background: #f0f0f0;
+  border-bottom: 1px solid #ccc;
+  position: relative;
+}
+
+.ry-datepicker-wrapper .ry-datepicker-btn {
+  /*font-family: serif;*/
+  font-size: 20px;
+  width: 20px;
+  height: 40px;
+  line-height: 40px;
+  color: #A4D0CF;
+  position: absolute;
+  text-align: center;
+  cursor: pointer;
+}
+
+.ry-datepicker-wrapper .ry-datepicker-btn:hover {
+  color: #1abc9c;
+}
+
+.ry-datepicker-wrapper .ry-datepicker-btn-prev {
+  left: 20px;
+}
+
+.ry-datepicker-wrapper .ry-datepicker-btn-next {
+  right: 20px;
+}
+
+.ry-datepicker-wrapper .ry-datepicker-body table{
+  width: 100%;
+  border-collapse: collapse;
+
+}
+
+.ry-datepicker-wrapper .ry-datepicker-body th,
+.ry-datepicker-wrapper .ry-datepicker-body td {
+  height: 25px;
+  line-height: 25px;
+  text-align: center;
+}
+
+.ry-datepicker-wrapper .ry-datepicker-body th {
+  font-size: 12px;
+  height: 40px;
+  line-height: 40px;
+}
+
+.ry-datepicker-wrapper .ry-datepicker-body td {
+  font-size: 14px;
+  width: 14px;
+  border-radius: 3px;
+}
+
+.ry-datepicker-wrapper .ry-datepicker-body td:hover {
+  cursor: pointer;
+}
+
+.ry-datepicker-wrapper .ry-datepicker-pre, .ry-datepicker-wrapper .ry-datepicker-next {
+  color: #C9D1DA;
+}
+
+.ry-datepicker-wrapper .ry-datepicker-cur:hover {
+  background: #8FCCC7;
+}
+
+.ry-datepicker-wrapper .ry-datepicker-today {
+  background: #8FCCC7;
+}
